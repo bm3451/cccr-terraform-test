@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+  - name: install htttp
+    apt: 
+      name: apache2
+      state: present
